@@ -1,0 +1,52 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+ 
+  
+}
+.addbutton{
+    width: 80%;
+    padding-top: 8px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid grey;
+    color:black;
+    margin-left: 20px;
+   
+}
+.boxshadow{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; 
+    /* border:"1px solid red", */
+ width:250px;
+ height: 500px;
+ margin-top: 20px;
+   
+    
+}
+.buybutton{
+    width: 80%;
+    height: 40px;
+    color: black;
+    background-color: #1ed61e;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+    
+    padding-top: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-style:unset;
+}
+.checkpage{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+}
